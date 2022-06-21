@@ -1,0 +1,58 @@
+
+.projects {
+  display: flex-column;
+}
+
+.proj {
+  margin: 12px;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 8px;
+  max-width: 800px;
+  overflow-wrap: break-word;
+  max-width: 800px;
+}
+
+.title {
+ display: flex;
+ font-size: 1.2rem;
+ -webkit-flex-wrap: wrap;
+ flex-wrap: wrap;
+}
+
+.titleLink {
+  text-decoration: none !important;
+  color: black
+}
+
+.titleLink:hover {
+  font-weight: 600;
+}
+
+.hack {
+  padding-left: 8px;
+}
+
+.projabout {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.techstacks {
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+}
+
+.arrow {
+  display: flex;
+  padding-left: 8px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

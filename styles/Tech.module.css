@@ -1,0 +1,22 @@
+.techstack {
+  border: 1px solid;
+  width: fit-content;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 12px;
+  margin: 2px;
+  margin-right: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech {
+ text-align: center;
+
+}
+
+.title {
+  font-size: 14px;
+}

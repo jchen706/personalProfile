@@ -1,0 +1,22 @@
+.pub {
+  padding-top: 30px;
+}
+
+.pubconf {
+  color: red;
+}
+
+.pubbtn {
+  margin-top: 8px;
+}
+
+.conflink {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0;
+  text-decoration: none !important;
+  color: red ;
+}
+
+
+
