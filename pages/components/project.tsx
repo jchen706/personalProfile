@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react'; // importing FunctionComponent
 import styles from "../../styles/Project.module.css"
-import { Tech } from "./tech"
+import Tech  from "./tech"
 type CardProps = {
   title: string,
   paragraph: any,

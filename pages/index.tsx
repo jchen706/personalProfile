@@ -2,8 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import {Paper} from './components/paper'
-import { Project } from './components/project'
+import Paper from './components/paper'
+import Project  from './components/project'
 // import {github} from '../public/github-square-brands.svg'
 
 const Home: NextPage = () => {
@@ -75,7 +75,7 @@ const Home: NextPage = () => {
           {/* <Project title="CryptoAll" paragraph="aaaaa" tech={["C++", "LLVM", "CUDA"]}/> */}
           <Project title="Cupbob" paragraph="CuPBoP is proposed to execute CUDA on non-NVIDIA devices 
           without relying on any portable programming languages. Compared with existing work that executes CUDA on non-NVIDIA devices, CuPBoP does not require manual modification of the CUDA source code. I worked on CUDA runtime for x86 architecture
-and used LLVM to manipulate bitcode generated from frontend compilation. I help with benchmarking and debugging backend compiler issues and the runtime system." tech={["C++", "LLVM", "CUDA"]} 
+and used LLVM to manipulate bitcode generated from frontend compilation. I helped with benchmarking and debugging backend compiler issues and the runtime system." tech={["C++", "LLVM", "CUDA"]} 
 link="https://arxiv.org/abs/2206.07896"
 />
           <Project title="Course Critique" paragraph="Created a course and professor search for students interested in the grade point average or letter grade percentages of 
