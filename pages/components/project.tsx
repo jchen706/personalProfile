@@ -9,7 +9,7 @@ type CardProps = {
   hack?: string,
 }
 
-export const Project: FunctionComponent<CardProps> = ({ title, paragraph, tech, link, hack }) => 
+const Project: FunctionComponent<CardProps> = ({ title, paragraph, tech, link, hack }) => 
   <div className={styles.project}>
       <div className={styles.proj}>
          
@@ -37,3 +37,4 @@ export const Project: FunctionComponent<CardProps> = ({ title, paragraph, tech, 
 </div>
 
 
+export default Project;

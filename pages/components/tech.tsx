@@ -4,7 +4,7 @@ type TechProps = {
   title: string,
 }
 
-export const Tech: FunctionComponent<TechProps> = ({ title}) => 
+const Tech: FunctionComponent<TechProps> = ({ title}) => 
   <div className={styles.techstack}>
       <div className={styles.tech}>
         <div className={styles.title}>
@@ -13,3 +13,4 @@ export const Tech: FunctionComponent<TechProps> = ({ title}) =>
       </div>
 </div>
 
+export default Tech;

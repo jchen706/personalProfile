@@ -8,7 +8,7 @@ type PaperProps = {
   link: string
 }
 
-export const Paper: FunctionComponent<PaperProps> = ({ title, author, conf, conflink, link }) => <div>
+const Paper: FunctionComponent<PaperProps> = ({ title, author, conf, conflink, link }) => <div>
 <ul>
 <li>
   <div>
@@ -37,4 +37,5 @@ export const Paper: FunctionComponent<PaperProps> = ({ title, author, conf, conf
 </ul>
 </div>
 
+export default Paper;
 // const el = <Paper title="Welcome!" paragraph="To this example" />
