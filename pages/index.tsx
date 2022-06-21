@@ -95,7 +95,7 @@ offered courses"
         </div>
         <div className="hackathons">
           <h5>Hackathons</h5>
-          <Project title="Devpost Profile" paragraph="Hackathons: HackMIT 2019, SwampHacks 2019, CUhackit2019, HackGSU 2018" tech={[""]}
+          <Project title="Devpost Profile" paragraph="Hackathons: HackMIT 2019, SwampHacks 2019, CUhackit2019, HackGSU 2018" tech={["/"]}
           link="https://devpost.com/jchen706"/>
         </div>
       </main>
