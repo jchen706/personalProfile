@@ -4,12 +4,12 @@ import Tech  from "./tech"
 type CardProps = {
   title: string,
   paragraph: any,
-  tech1: string[],
+  tech?: string[],
   link?: string,
   hack?: string,
 }
 
-const Project: FunctionComponent<CardProps> = ({ title, paragraph, tech1, link, hack }) => 
+const Project: FunctionComponent<CardProps> = ({ title, paragraph, tech, link, hack }) => 
   <div className={styles.project}>
       <div className={styles.proj}>
          
@@ -29,7 +29,7 @@ const Project: FunctionComponent<CardProps> = ({ title, paragraph, tech1, link, 
           <p className={styles.projabout}> { paragraph } </p>
         </div> 
         <div className={styles.techstacks}> 
-           { typeof(tech1) !== 'undefined' && tech1 != null &&  tech1?.map((object, i) => <Tech title={object} key={i}></Tech>) }
+           { typeof(tech) !== 'undefined' && tech != null &&  tech?.map((object, i) => <Tech title={object} key={i}></Tech>) }
         </div> 
          
       </div>
