@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <div className={styles.heading}>
         <div className={styles.bioLeft}>
         <div className={styles.profilePic}>
-          <img className={styles.pic} src="/1530324501153.jpg"  height={186} width={186}  alt="Linkedin" />
+          <Image className={styles.pic} src="/1530324501153.jpg"  height={186} width={186}  alt="Linkedin" />
         </div>
         <div className={styles.nameRes}>
             <h1 className="cover-heading">Jun Chen</h1>
@@ -34,17 +34,17 @@ const Home: NextPage = () => {
         <div className={styles.contacts}>
         <h1>
           <a href="www.linkedin.com/in/junchen12" className={styles.homeColorBlack}>
-          <img src="/linkedin-brands.svg"  height={32} width={32}  alt="Linkedin" />
+          <Image src="/linkedin-brands.svg"  height={32} width={32}  alt="Linkedin" />
           </a>
         </h1>
         <h1>
           <a href="https://github.com/jchen706" className={styles.homeColorBlack}>
-            <img src="/github-square-brands.svg" height={32} width={32}  alt="Github" />
+            <Image src="/github-square-brands.svg" height={32} width={32}  alt="Github" />
           </a>        
       </h1>
       	<h1>
       	<a href="mailto:jchen706@gatech.edu" className={styles.homeColorBlack}> 
-          <img src="/square-envelope-solid.svg"  height={32} width={32}   alt="Email" />
+          <Image src="/square-envelope-solid.svg"  height={32} width={32}   alt="Email" />
 
         </a>  
     	</h1>  
