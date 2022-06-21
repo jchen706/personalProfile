@@ -4,12 +4,12 @@ import Tech  from "./tech"
 type CardProps = {
   title: string,
   paragraph: any,
-  tech: string[],
+  tech1: string[],
   link?: string,
   hack?: string,
 }
 
-const Project: FunctionComponent<CardProps> = ({ title, paragraph, tech, link, hack }) => 
+const Project: FunctionComponent<CardProps> = ({ title, paragraph, tech1, link, hack }) => 
   <div className={styles.project}>
       <div className={styles.proj}>
          
@@ -29,7 +29,7 @@ const Project: FunctionComponent<CardProps> = ({ title, paragraph, tech, link, h
           <p className={styles.projabout}> { paragraph } </p>
         </div> 
         <div className={styles.techstacks}> 
-           {tech.map((object, i) => <Tech title={object} key={i}></Tech>) }
+           {tech1?.map((object, i) => <Tech title={object} key={i}></Tech>) }
         </div> 
          
       </div>
