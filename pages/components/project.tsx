@@ -29,7 +29,9 @@ const Project: FunctionComponent<CardProps> = ({ title, paragraph, tech, link, h
           <p className={styles.projabout}> { paragraph } </p>
         </div> 
         <div className={styles.techstacks}> 
-           { typeof(tech) !== 'undefined' && tech != null &&  tech?.map((object, i) => <Tech title={object} key={i}></Tech>) }
+           { typeof(tech) !== 'undefined' && tech != null 
+           ?  tech?.map((object, i) => <Tech title={object} key={i}></Tech>)
+           : <div></div> }
         </div> 
          
       </div>

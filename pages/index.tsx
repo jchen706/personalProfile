@@ -4,18 +4,20 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Paper from './components/paper'
 import Project  from './components/project'
+import Link from 'next/link'
 // import {github} from '../public/github-square-brands.svg'
-
+import profilePic from '../public//1530324501153.jpg'
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
+      </Head>
       {/* <!-- <img src="jun.jpg" class=" img-fluid mx-auto d-block rounded-circle" alt="Responsive image"> --> */}
       {/* <Image> </Image>  */}
       <div className={styles.heading}>
         <div className={styles.bioLeft}>
         <div className={styles.profilePic}>
-          <Image className={styles.pic} src="/1530324501153.jpg"  height={186} width={186}  alt="Linkedin" />
+          <Image className={styles.pic} src={profilePic} height={186} width={186}  alt="Profile Picture" />
         </div>
         <div className={styles.nameRes}>
             <h1 className="cover-heading">Jun Chen</h1>
@@ -33,9 +35,13 @@ const Home: NextPage = () => {
        
         <div className={styles.contacts}>
         <h1>
-          <a href="www.linkedin.com/in/junchen12" className={styles.homeColorBlack}>
+          <Link href="www.linkedin.com/in/junchen12" >
+          <>
+          <a className={styles.homeColorBlack}>
           <Image src="/linkedin-brands.svg"  height={32} width={32}  alt="Linkedin" />
           </a>
+          </>
+          </Link>
         </h1>
         <h1>
           <a href="https://github.com/jchen706" className={styles.homeColorBlack}>
@@ -45,14 +51,14 @@ const Home: NextPage = () => {
       	<h1>
       	<a href="mailto:jchen706@gatech.edu" className={styles.homeColorBlack}> 
           <Image src="/square-envelope-solid.svg"  height={32} width={32}   alt="Email" />
-
         </a>  
     	</h1>  
       </div>
         </div>
       </div>
      
-      </Head>
+      
+      {/* <Image className={styles.pic} src={profilePic} height={186} width={186}  alt="Profile Picture" /> */}
 
       <main className={styles.main}>
         <div className="paperSection">
@@ -95,7 +101,8 @@ offered courses"
         </div>
         <div className="hackathons">
           <h5>Hackathons</h5>
-          <Project title="Devpost Profile" paragraph="Hackathons: HackMIT 2019, SwampHacks 2019, CUhackit2019, HackGSU 2018" tech={["/"]}
+          <Project title="Devpost Profile" paragraph="Hackathons: HackMIT 2019, SwampHacks 2019, CUhackit2019, HackGSU 2018"
+           tech={["/"]}
           link="https://devpost.com/jchen706"/>
         </div>
       </main>
