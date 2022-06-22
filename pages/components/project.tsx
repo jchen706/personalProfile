@@ -21,7 +21,7 @@ const Project: FunctionComponent<CardProps> = ({ title, paragraph, tech, link, h
 
           { typeof(link) !== 'undefined' && link != null && <div className={styles.link}>
             <a  className={styles.arrow} href={link}>
-              <img src="/square-arrow-up-right-solid.svg"  height={18} width={18}   alt="Link To Project" />
+              <img  src="/square-arrow-up-right-solid.svg"  height={18} width={18}   alt="Link To Project" />
             </a></div>} 
 
         </div>
