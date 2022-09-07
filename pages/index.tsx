@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         <div className={styles.nameRes}>
             <h1 className="cover-heading">Jun Chen</h1>
             <div className={styles.resume}>       
-                <a href="/Jun_Chen_Summer_2022_.pdf" className={styles.cvOverlay2}> 
+                <a href="/resume.pdf" className={styles.cvOverlay2}> 
                   
                   <div className={styles.cvOverlay}>
                     {/* <div className={styles.cvText}>CV</div> */}
