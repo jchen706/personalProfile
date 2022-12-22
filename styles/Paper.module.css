@@ -3,20 +3,30 @@
 }
 
 .pubconf {
-  color: red;
+  color: #861515;
 }
 
 .pubbtn {
   margin-top: 8px;
 }
 
+.type {
+  background-color: #00CCFF;
+  width: fit-content;
+  color: white;
+  line-height: 20px;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 4px;
+  border-radius: 4px;
+}
 .conflink {
   font-size: 0.8rem;
   font-weight: 700;
   padding: 0;
   text-decoration: none !important;
-  color: red ;
+  color: #ce0202;
 }
-
 
 

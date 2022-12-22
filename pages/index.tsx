@@ -49,7 +49,7 @@ const Home: NextPage = () => {
           </a>        
       </h1>
       	<h1>
-      	<a href="mailto:jchen706@gatech.edu" className={styles.homeColorBlack}> 
+      	<a href="mailto:junchen46@gmail.com" className={styles.homeColorBlack}> 
           <Image src="/square-envelope-solid.svg"  height={32} width={32}   alt="Email" />
         </a>  
     	</h1>  
@@ -63,17 +63,28 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div className="paperSection">
           <h5>Papers</h5>
+          {/* <Paper title="CuPBoP: A framework to make CUDA portable" 
+          // Ruobing Han, Jun Chen, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim
+          author={<>Ruobing Han, <i><strong>Jun Chen</strong></i>, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim </>}
+          link=""
+          conf="PPOPP'23: 28th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
+          conflink="http://prism.sejong.ac.kr/dossa-4/"
+          type="POSTER"
+          ></Paper> */}
           <Paper title="CuPBoP: CUDA for Parallelized and Broad-range Processors" 
           // Ruobing Han, Jun Chen, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim
           author={<>Ruobing Han, <i><strong>Jun Chen</strong></i>, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim </>}
           link="https://arxiv.org/abs/2206.07896"
-          conf=''
+          conf='arXiv'
+          conflink="https://arxiv.org/abs/2206.07896"
+          type=''
           ></Paper>
           <Paper title=" DynaaDCP: Dynamic Navigation of Autonomous Agents for Distributed Capture Processing" 
           author={<>Sam Jijina, Ramyad Hadidi, <i><strong>Jun Chen</strong></i>, Zhen Jiang, Ashutosh Dhekne, Hyesoon Kim </>}
           link="http://prism.sejong.ac.kr/dossa-4/dossa_paper/DynaaDCP_Final.pdf"
           conf="DOSSA-4 @ HPCA'22"
           conflink="http://prism.sejong.ac.kr/dossa-4/"
+          type=''
           ></Paper>
         </div>
         <div className="projectSection">
@@ -91,6 +102,10 @@ offered courses"
           <Project title="Distributed OpenDroneMap with gRPC" 
            paragraph= {<>Implemented OpenDroneMap with gRPC for distributed 3D reconstruction for the  <span className={styles.paperBold}> DynaaDCP: Dynamic Navigation of Autonomous Agents for Distributed Capture Processing </span></>} 
            tech={["Python", "gRPC"]}/>
+            <Project title="TimescaleDB Benchmarking" 
+          paragraph="Benchmark TimescaleDB with Yahoo Finance historical data" 
+          tech={["AWS EC2", "Selenium", "TimescaleDB", "PostgreSQL", "Python"]}
+          link="https://github.com/jchen706/timeseries_db"/>
           <Project title="2ndGenSports" 
           paragraph="A Flask application that collects the data to determine the number of second genration athletes per a collegitate sports team" 
           tech={["Python", "Flask", "AWS DynamoDB", "Selenium", "NLTK"]}

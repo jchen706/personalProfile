@@ -5,10 +5,11 @@ type PaperProps = {
   author: any, 
   conf?: string,
   conflink?: string,
-  link: string
+  link: string,
+  type?: string,
 }
 
-const Paper: FunctionComponent<PaperProps> = ({ title, author, conf, conflink, link }) => <div>
+const Paper: FunctionComponent<PaperProps> = ({ title, author, conf, conflink, link, type }) => <div>
 <ul>
 <li>
   <div>
@@ -19,8 +20,11 @@ const Paper: FunctionComponent<PaperProps> = ({ title, author, conf, conflink, l
     <br/>
     { author }
     {/* Sam Jijina, Ramyad Hadidi, <i>Jun Chen</i>, Zhen Jiang, Ashutosh Dhekne, Hyesoon Kim */}
+    { type !== '' ? <>
+    <p className={styles.type}>{type}</p>
+    </> : <br/>
+    }
     
-    <br/>
     {conf !== ''  ? <>
     <span className={styles.pubconf}>
       <a className={styles.conflink} href={conflink}>
