@@ -63,14 +63,14 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div className="paperSection">
           <h5>Papers</h5>
-          {/* <Paper title="CuPBoP: A framework to make CUDA portable" 
+          <Paper title="CuPBoP: A framework to make CUDA portable" 
           // Ruobing Han, Jun Chen, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim
           author={<>Ruobing Han, <i><strong>Jun Chen</strong></i>, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim </>}
           link=""
           conf="PPOPP'23: 28th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
-          conflink="http://prism.sejong.ac.kr/dossa-4/"
+          conflink=""
           type="POSTER"
-          ></Paper> */}
+          ></Paper>
           <Paper title="CuPBoP: CUDA for Parallelized and Broad-range Processors" 
           // Ruobing Han, Jun Chen, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim
           author={<>Ruobing Han, <i><strong>Jun Chen</strong></i>, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim </>}
