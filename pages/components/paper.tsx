@@ -34,8 +34,10 @@ const Paper: FunctionComponent<PaperProps> = ({ title, author, conf, conflink, l
     <br/>
     </> : null
     }
-
+ {link !== ''  ? <>
     <a className="btn btn-light btn-outline-primary btn-sm pub-btn" href={link}>Paper</a>
+    </> : null
+ }
   </div>
 </li>
 </ul>
