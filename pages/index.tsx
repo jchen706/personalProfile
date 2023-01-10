@@ -68,7 +68,7 @@ const Home: NextPage = () => {
           author={<>Ruobing Han, <i><strong>Jun Chen</strong></i>, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim </>}
           link=""
           conf="PPOPP'23: 28th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
-          conflink=""
+          conflink="https://ppopp23.sigplan.org/details/PPoPP-2023-papers/41/POSTER-CuPBoP-A-framework-to-make-CUDA-portable"
           type="POSTER"
           ></Paper>
           <Paper title="CuPBoP: CUDA for Parallelized and Broad-range Processors" 
