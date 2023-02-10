@@ -16,25 +16,24 @@ const Home: NextPage = () => {
       {/* <Image> </Image>  */}
       <div className={styles.heading}>
         <div className={styles.bioLeft}>
-        <div className={styles.profilePic}>
-          <Image className={styles.pic} src={profilePic} height={186} width={186}  alt="Profile Picture" />
-        </div>
+        {/* <div className={styles.profilePic}> */}
+          {/* <Image className={styles.pic} src={profilePic} height={186} width={186}  alt="Profile Picture" /> */}
+        {/* </div> */}
         <div className={styles.nameRes}>
             <h1 className="cover-heading">Jun Chen</h1>
-            <div className={styles.resume}>       
+            {/* <div className={styles.resume}>       
                 <a href="/resume.pdf" className={styles.cvOverlay2}> 
                   
                   <div className={styles.cvOverlay}>
-                    {/* <div className={styles.cvText}>CV</div> */}
                     <img src="/file-solid.svg"  height={24} width={24} className={styles.paperOver}  alt="Resume" />
                   </div>
                   <div className={styles.resumeText}>Resume</div>
                 </a>  
-            </div>
+            </div> */}
         </div>
        
         <div className={styles.contacts}>
-        <h1>
+        {/* <h1>
           <Link href="www.linkedin.com/in/junchen12" >
           <>
           <a className={styles.homeColorBlack}>
@@ -42,17 +41,17 @@ const Home: NextPage = () => {
           </a>
           </>
           </Link>
-        </h1>
+        </h1> */}
         <h1>
           <a href="https://github.com/jchen706" className={styles.homeColorBlack}>
             <Image src="/github-square-brands.svg" height={32} width={32}  alt="Github" />
           </a>        
-      </h1>
+        </h1>
       	<h1>
-      	<a href="mailto:junchen46@gmail.com" className={styles.homeColorBlack}> 
-          <Image src="/square-envelope-solid.svg"  height={32} width={32}   alt="Email" />
-        </a>  
-    	</h1>  
+          <a href="mailto:junchen46@gmail.com" className={styles.homeColorBlack}> 
+            <Image src="/square-envelope-solid.svg"  height={32} width={32}   alt="Email" />
+          </a>  
+    	  </h1>  
       </div>
         </div>
       </div>

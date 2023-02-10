@@ -30,8 +30,8 @@
 
 .contacts {
   display: flex;
-  justify-content: space-between;
-  width: 200px;
+  justify-content: space-around;
+  width: 100px;
 }
 .resume-btn {
   width: 275px;
