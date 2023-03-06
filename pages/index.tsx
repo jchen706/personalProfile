@@ -85,6 +85,16 @@ const Home: NextPage = () => {
           conflink="http://prism.sejong.ac.kr/dossa-4/"
           type=''
           ></Paper>
+          <Paper title="Secure Location-Aware Authentication and Communication for Intelligent Transportation Systems" 
+          author={<>Nima Shoghi Ghalehshahi, Ramyad Hadidi, Lee Jaewon, <i><strong>Jun Chen</strong></i>, Arthur Siqueria, Rahul Rajan, Shaan Dhawan, Pooya Shoghi Ghalehshahi, Hyesoon Kim </>}
+          link="https://arxiv.org/abs/2011.08936"
+          conf="arXiv"
+          conflink="https://arxiv.org/abs/2011.08936"
+          type=''
+          ></Paper>
+
+{/* Secure Location-Aware Authentication and Communication for Intelligent Transportation Systems */}
+
         </div>
         <div className="projectSection">
           <h5>Projects</h5>
