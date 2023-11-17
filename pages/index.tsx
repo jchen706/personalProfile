@@ -107,7 +107,7 @@ const Home: NextPage = () => {
           <h5>Projects</h5>
           {/* <Project title="CryptoAll" paragraph="aaaaa" tech={["C++", "LLVM", "CUDA"]}/> */}
           <Project title="CuPBoP-AMD" paragraph="CuPBoP-AMD is a CUDA translator that translates CUDA programs at NVVM IR level to HIP-compatible IR that can run on AMD GPUs." tech={["C++", "LLVM", "CUDA", "ROCM"]} 
-link="https://github.com/jchen706/CuPBoP-AMD"
+link="https://github.com/gthparch/CuPBoP-AMD"
 />
           <Project title="Cupbob" paragraph="CuPBoP is proposed to execute CUDA on non-NVIDIA devices 
           without relying on any portable programming languages. Compared with existing work that executes CUDA on non-NVIDIA devices, CuPBoP does not require manual modification of the CUDA source code. I worked on CUDA runtime for x86 architecture
