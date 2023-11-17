@@ -62,6 +62,13 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div className="paperSection">
           <h5>Papers</h5>
+          <Paper title="CuPBoP-AMD: Extending CUDA to AMD Platforms" 
+          author={<><i><strong>Jun Chen</strong></i>, Xule Zhou, Hyesoon Kim </>}
+          link="https://dl.acm.org/doi/10.1145/3624062.3624185"
+          conf="P3HPC @ SC23"
+          conflink="https://p3hpc.org/workshop/2023/program/"
+          type=""
+          ></Paper>
           <Paper title="CuPBoP: A framework to make CUDA portable" 
           // Ruobing Han, Jun Chen, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim
           author={<>Ruobing Han, <i><strong>Jun Chen</strong></i>, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim </>}
@@ -99,10 +106,13 @@ const Home: NextPage = () => {
         <div className="projectSection">
           <h5>Projects</h5>
           {/* <Project title="CryptoAll" paragraph="aaaaa" tech={["C++", "LLVM", "CUDA"]}/> */}
+          <Project title="CuPBoP-AMD" paragraph="CuPBoP-AMD is a CUDA translator that translates CUDA programs at NVVM IR level to HIP-compatible IR that can run on AMD GPUs." tech={["C++", "LLVM", "CUDA", "ROCM"]} 
+link="https://github.com/jchen706/CuPBoP-AMD"
+/>
           <Project title="Cupbob" paragraph="CuPBoP is proposed to execute CUDA on non-NVIDIA devices 
           without relying on any portable programming languages. Compared with existing work that executes CUDA on non-NVIDIA devices, CuPBoP does not require manual modification of the CUDA source code. I worked on CUDA runtime for x86 architecture
 and used LLVM to manipulate bitcode generated from frontend compilation. I helped with benchmarking and debugging backend compiler issues and the runtime system." tech={["C++", "LLVM", "CUDA"]} 
-link="https://arxiv.org/abs/2206.07896"
+link="https://github.com/cupbop/CuPBoP"
 />
           <Project title="Course Critique" paragraph="Created a course and professor search for students interested in the grade point average or letter grade percentages of 
 offered courses" 
