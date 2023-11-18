@@ -63,7 +63,7 @@ const Home: NextPage = () => {
         <div className="paperSection">
           <h5>Papers</h5>
           <Paper title="CuPBoP-AMD: Extending CUDA to AMD Platforms" 
-          author={<><i><strong>Jun Chen</strong></i>, Xule Zhou, Hyesoon Kim </>}
+          author={<><i><strong>Jun Chen*</strong></i>, Xule Zhou*, Hyesoon Kim </>}
           link="https://dl.acm.org/doi/10.1145/3624062.3624185"
           conf="P3HPC @ SC23"
           conflink="https://p3hpc.org/workshop/2023/program/"
@@ -71,7 +71,7 @@ const Home: NextPage = () => {
           ></Paper>
           <Paper title="CuPBoP: A framework to make CUDA portable" 
           // Ruobing Han, Jun Chen, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim
-          author={<>Ruobing Han, <i><strong>Jun Chen</strong></i>, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim </>}
+          author={<>Ruobing Han, <i><strong>Jun Chen*</strong></i>, Bhanu Garg*, Jeffrey Young, Jaewoong Sim, Hyesoon Kim </>}
           link=""
           conf="PPOPP'23: 28th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
           conflink="https://ppopp23.sigplan.org/details/PPoPP-2023-papers/41/POSTER-CuPBoP-A-framework-to-make-CUDA-portable"
@@ -79,7 +79,7 @@ const Home: NextPage = () => {
           ></Paper>
           <Paper title="CuPBoP: CUDA for Parallelized and Broad-range Processors" 
           // Ruobing Han, Jun Chen, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim
-          author={<>Ruobing Han, <i><strong>Jun Chen</strong></i>, Bhanu Garg, Jeffrey Young, Jaewoong Sim, Hyesoon Kim </>}
+          author={<>Ruobing Han, <i><strong>Jun Chen*</strong></i>, Bhanu Garg*, Jeffrey Young, Jaewoong Sim, Hyesoon Kim </>}
           link="https://arxiv.org/abs/2206.07896"
           conf='arXiv'
           conflink="https://arxiv.org/abs/2206.07896"
